@@ -45,7 +45,8 @@ def check_date(date):
 
 
 while True:
-    input_date = input("Введите дату: ")
+    # input_date = input("Введите дату: ")
+    input_date = argv[1]
     if check_date_format(input_date):
         if check_date(input_date):
             print("Вы ввели возможную дату.")
